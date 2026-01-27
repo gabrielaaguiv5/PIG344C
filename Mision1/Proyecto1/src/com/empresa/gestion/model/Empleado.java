@@ -39,7 +39,7 @@ public class Empleado extends Persona{
     }
     // Agregamos reglas de negocio
     public boolean esMayorDeEdad(){
-        return edad>=18;
+        return edad>=18;  
     }
     public boolean puedeTrabajar(){
         return edad >=18 && activo==true;

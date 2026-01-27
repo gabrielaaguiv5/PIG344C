@@ -22,7 +22,14 @@ public class Main {
         System.out.println("Salario anual Empleados: $" + nomina.calcularSalarioAnual(gerente1));
         System.out.println("¿Puede trabajar?" + gerente1.puedeTrabajar());
         System.out.println("¿Puede trabajar?" + gerente1.clasificarEmpleado());
-          System.out.println("Genero " + gerente1.obtenerTipoEmpleado());
+        System.out.println("Genero " + gerente1.obtenerTipoEmpleado());
+
+        
+        double[] salarios={2000,1000,5000};
+        System.out.println("Calcular Total Nomina "+nomina.calcularTotalNomina(salarios));
+
+        int meses=3;
+        nomina.simularPagos(meses);
 
     }
     
