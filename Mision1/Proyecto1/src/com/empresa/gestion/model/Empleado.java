@@ -69,6 +69,11 @@ public class Empleado extends Persona{
                 return "No especificado";
         }
     }
+    public String resumen(){
+        return "ID: "+id+
+                "| Nombre: " + nombre +
+                "| Edad: " + edad;
+    }
 
     
 }

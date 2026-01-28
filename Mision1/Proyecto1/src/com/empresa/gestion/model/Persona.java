@@ -3,7 +3,7 @@ package com.empresa.gestion.model;
 public class Persona {
     //🔐 Encapsulación
     protected int id;
-    private String nombre;
+    protected String nombre;
     protected int edad;
     protected boolean activo;// true false
     protected char genero;// 'M'   o 'F'
