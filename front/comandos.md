@@ -11,3 +11,4 @@
 | ng serve -o                                                 | Corre el servidor y abre navegador |
 | ng generate service services/user.service/user.service      | para crear un servicio             |
 | ng generate component view/user/user.component              | generamos vista de usuario         |
+| npm i bootstrap@5.3.8                                       | instalar bootstrap                 |
