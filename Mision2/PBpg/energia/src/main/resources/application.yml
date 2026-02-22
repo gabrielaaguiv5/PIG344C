@@ -4,6 +4,11 @@ spring:
     username: postgres
     password: admin
 
+  security:
+    user:
+      name: admin
+      password: 1234
+
   jpa:
     hibernate:
       ddl-auto: update
@@ -17,3 +22,5 @@ server:
   port: 8080
   error:
     include-message: always
+  
+  
